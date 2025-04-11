@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok AI - Empowering Intelligent Solutions</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>G</text></svg>">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<!-- Rest of the HTML remains exactly the same -->
+<body class="font-sans bg-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-black/90 backdrop-blur-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold text-white">Grok AI</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="text-white hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#features" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">Features</a>
+                        <a href="#about" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#pricing" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">Pricing</a>
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Get Started</button>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-purple-900/50 z-10"></div>
+        <div class="absolute inset-0">
+            <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg" 
+                 alt="AI Background" 
+                 class="w-full h-full object-cover">
+        </div>
+        <div class="relative z-20 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                The Future of <span class="text-blue-400">Conversation</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-200">
+                Experience the next generation of AI-powered conversations with Grok AI. 
+                Smart, intuitive, and always learning.
+            </p>
+            <button class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                Start Exploring
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Powerful Features</h2>
+                <p class="text-gray-400 text-xl">Discover what makes Grok AI unique</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-900 p-8 rounded-xl hover:bg-gray-800 transition duration-300">
+                    <div class="text-blue-400 mb-4">
+                        <i class="fas fa-brain text-4xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Advanced Intelligence</h3>
+                    <p class="text-gray-400">State-of-the-art language processing capabilities for natural conversations.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-900 p-8 rounded-xl hover:bg-gray-800 transition duration-300">
+                    <div class="text-blue-400 mb-4">
+                        <i class="fas fa-bolt text-4xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Real-time Processing</h3>
+                    <p class="text-gray-400">Lightning-fast responses with minimal latency for seamless interaction.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-900 p-8 rounded-xl hover:bg-gray-800 transition duration-300">
+                    <div class="text-blue-400 mb-4">
+                        <i class="fas fa-shield-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Secure & Private</h3>
+                    <p class="text-gray-400">Enterprise-grade security ensuring your conversations stay private.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">About Grok AI</h2>
+                    <p class="text-gray-400 text-lg mb-6">
+                        Grok AI represents the cutting edge of artificial intelligence technology, 
+                        designed to understand and engage in meaningful conversations across a wide range of topics.
+                    </p>
+                    <p class="text-gray-400 text-lg mb-6">
+                        Our mission is to make advanced AI accessible to everyone, 
+                        pushing the boundaries of what's possible in human-AI interaction.
+                    </p>
+                    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Learn More
+                    </button>
+                </div>
+                <div class="relative h-96">
+                    <img src="https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg" 
+                         alt="AI Technology" 
+                         class="absolute inset-0 w-full h-full object-cover rounded-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Simple Pricing</h2>
+                <p class="text-gray-400 text-xl">Choose the plan that works for you</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Basic Plan -->
+                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition duration-300">
+                    <h3 class="text-2xl font-bold mb-4">Basic</h3>
+                    <div class="text-4xl font-bold mb-6">$29<span class="text-lg text-gray-400">/mo</span></div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>1000 API calls/month</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Basic support</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Standard response time</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Get Started
+                    </button>
+                </div>
+                <!-- Pro Plan -->
+                <div class="bg-blue-600 rounded-xl p-8 transform scale-105 relative">
+                    <div class="absolute top-0 right-0 bg-yellow-400 text-black px-4 py-1 rounded-tr-xl rounded-bl-xl text-sm font-bold">
+                        POPULAR
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Pro</h3>
+                    <div class="text-4xl font-bold mb-6">$99<span class="text-lg text-gray-200">/mo</span></div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-2"></i>
+                            <span>5000 API calls/month</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-2"></i>
+                            <span>Priority support</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-2"></i>
+                            <span>Advanced features</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-white text-blue-600 py-3 rounded-lg hover:bg-gray-100 transition duration-300">
+                        Get Started
+                    </button>
+                </div>
+                <!-- Enterprise Plan -->
+                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition duration-300">
+                    <h3 class="text-2xl font-bold mb-4">Enterprise</h3>
+                    <div class="text-4xl font-bold mb-6">Custom</div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Unlimited API calls</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>24/7 dedicated support</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Custom solutions</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Contact Sales
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Grok AI</h4>
+                    <p class="text-gray-400">Empowering the future of conversation through artificial intelligence.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white">Features</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Contact</h4>
+                    <p class="text-gray-400">Email: contact@grokai.com</p>
+                    <p class="text-gray-400">Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Grok AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
